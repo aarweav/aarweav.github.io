@@ -1,0 +1,2202 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_9327efecba34dc6a1344c8422eb23645 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_9327efecba34dc6a1344c8422eb23645" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_9327efecba34dc6a1344c8422eb23645 = L.map(
+        'map_9327efecba34dc6a1344c8422eb23645', {
+        center: [38.772206, -93.794289],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_e197f7568ab97720e702311e3e234a69 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_9327efecba34dc6a1344c8422eb23645);
+    
+            var circle_marker_bb2af60424be6d0cc143d31e0a329a6d = L.circleMarker(
+                [38.772206, -93.794289],
+                {
+  "bubblingMouseEvents": true,
+  "color": "black",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "black",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_251c620663646c96b2a896a80f0e9e0a = L.circle(
+                [38.772206, -93.794289],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#000000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#000000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 64374,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+            var popup_2cc137d1b864b8ea063bf0902ef9a592 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_024e2bc82e832049fec528c7ddf60c6d = $(`<div id="html_024e2bc82e832049fec528c7ddf60c6d" style="width: 100.0%; height: 100.0%;">40 miles</div>`)[0];
+                popup_2cc137d1b864b8ea063bf0902ef9a592.setContent(html_024e2bc82e832049fec528c7ddf60c6d);
+            
+
+            circle_251c620663646c96b2a896a80f0e9e0a.bindPopup(popup_2cc137d1b864b8ea063bf0902ef9a592)
+            ;
+
+            
+        
+    
+        var marker_a4bba7dc4730b0e053e622f4d9d6509a = L.marker(
+            [38.772206, -93.794289],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+
+                var div_icon_98742508c23796cabb480b60e1f0ce7d = L.divIcon({
+                    iconSize: [20,20],
+                    iconAnchor: [-5,-10],
+                    
+                    className: 'empty',
+                    html: `<div style="font-size: 18; color:#0000FF;"><b>8 Degrees Brewing</b></div>`,
+                    });
+                marker_a4bba7dc4730b0e053e622f4d9d6509a.setIcon(div_icon_98742508c23796cabb480b60e1f0ce7d);
+            
+    
+
+            var circle_65dacd63047ff638d4850cc8ec011438 = L.circle(
+                [39.0185377, -94.2814298],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2800.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_8252b223fae5e98ca117ad0622a49ac5 = L.circle(
+                [38.8110698, -94.5317646],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_d385c62ad7d0b37fa2b7fc610a617b2e = L.circle(
+                [38.9117675, -94.3785763],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1890.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_f10ed428d3c0666da2e8fc1b782861a9 = L.circle(
+                [39.0408687, -94.4166997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 770.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_ea0a2bfda53b52e31bd18c7b7eb645c8 = L.circle(
+                [38.9206158, -94.3591625],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4170.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_74097ea91297282ed20ac0a8f3820d4d = L.circle(
+                [39.036277, -94.3040714],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1170.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_fd2122e401082785d0131b1551011b62 = L.circle(
+                [39.0155117, -94.1984099],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 880.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_009144f804fbc1b2c9536d4ebffa9520 = L.circle(
+                [39.0047429, -94.4624288],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9500.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_59bf0be682502e1cccbdca770633ba06 = L.circle(
+                [38.9225, -94.374167],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_484f4670174f89f591d4f133e89e9a19 = L.circle(
+                [39.0014522, -93.7727802],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_f71b7e775b6fa2920ab1110ab41a0574 = L.circle(
+                [38.7424556, -93.5707568],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_b7d425283c122524d2abc7f58ac8f463 = L.circle(
+                [38.8580411, -94.524216],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1880.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_52f936ad55aef4c5fa05fb29b5e5f558 = L.circle(
+                [38.9127832, -94.3766432],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1992.5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_f0679701eb8bb254acc6c2d2babb296b = L.circle(
+                [38.9130629, -94.3776928],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1760.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_88cbf023e2888819a83b484254edb0eb = L.circle(
+                [38.5071313, -93.057787],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 319.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+        var marker_f83f707dc68f930c378aff5b6fe69916 = L.marker(
+            [39.0185377, -94.2814298],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_a07ae32080920f8b133257180b83bda2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0607462d1bc059148f81ced2c4bf1b91 = $(`<div id="html_0607462d1bc059148f81ced2c4bf1b91" style="width: 100.0%; height: 100.0%;">East Forty Brewing - Taproom - 280 bbls</div>`)[0];
+                popup_a07ae32080920f8b133257180b83bda2.setContent(html_0607462d1bc059148f81ced2c4bf1b91);
+            
+
+            marker_f83f707dc68f930c378aff5b6fe69916.bindPopup(popup_a07ae32080920f8b133257180b83bda2)
+            ;
+
+            
+        
+    
+        var marker_fcc39bdcccd38ea73c77e2c68df78d5d = L.marker(
+            [38.8110698, -94.5317646],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_95603ef639770506f1a9568bf83a7e66 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a33db3be10a418d7048f009a4cd881b0 = $(`<div id="html_a33db3be10a418d7048f009a4cd881b0" style="width: 100.0%; height: 100.0%;">Crafted Dreams LLC - Planning - 0 bbls</div>`)[0];
+                popup_95603ef639770506f1a9568bf83a7e66.setContent(html_a33db3be10a418d7048f009a4cd881b0);
+            
+
+            marker_fcc39bdcccd38ea73c77e2c68df78d5d.bindPopup(popup_95603ef639770506f1a9568bf83a7e66)
+            ;
+
+            
+        
+    
+        var marker_bd7061c4d0baa5ecdd42f080f342fe2d = L.marker(
+            [38.9117675, -94.3785763],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_2f5cb1d5431b2bb25e916f7be121fef0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6aa6d2b8ae5e37da25098325d277058c = $(`<div id="html_6aa6d2b8ae5e37da25098325d277058c" style="width: 100.0%; height: 100.0%;">Grains & Taps - Taproom - 189 bbls</div>`)[0];
+                popup_2f5cb1d5431b2bb25e916f7be121fef0.setContent(html_6aa6d2b8ae5e37da25098325d277058c);
+            
+
+            marker_bd7061c4d0baa5ecdd42f080f342fe2d.bindPopup(popup_2f5cb1d5431b2bb25e916f7be121fef0)
+            ;
+
+            
+        
+    
+        var marker_0443ffc83f0e56d8b80a618c026d6992 = L.marker(
+            [39.0408687, -94.4166997],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_86fdcd3fe6ad03e503ee292b3ff6f31c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b76803755e53b116f78ccf0c57c823d5 = $(`<div id="html_b76803755e53b116f78ccf0c57c823d5" style="width: 100.0%; height: 100.0%;">Apex Aleworks - Taproom - 77 bbls</div>`)[0];
+                popup_86fdcd3fe6ad03e503ee292b3ff6f31c.setContent(html_b76803755e53b116f78ccf0c57c823d5);
+            
+
+            marker_0443ffc83f0e56d8b80a618c026d6992.bindPopup(popup_86fdcd3fe6ad03e503ee292b3ff6f31c)
+            ;
+
+            
+        
+    
+        var marker_d4348e9d8f57c02a5a966377c7182a75 = L.marker(
+            [38.9206158, -94.3591625],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_a28f6ccf20552503c728cfd33092f7b0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e2a711df4926a116e8fbcdb9bd470d3e = $(`<div id="html_e2a711df4926a116e8fbcdb9bd470d3e" style="width: 100.0%; height: 100.0%;">Diametric Brewing Co. - Taproom - 417 bbls</div>`)[0];
+                popup_a28f6ccf20552503c728cfd33092f7b0.setContent(html_e2a711df4926a116e8fbcdb9bd470d3e);
+            
+
+            marker_d4348e9d8f57c02a5a966377c7182a75.bindPopup(popup_a28f6ccf20552503c728cfd33092f7b0)
+            ;
+
+            
+        
+    
+        var marker_4e0a80b3bdbe32fca48741c8ca67f6cd = L.marker(
+            [39.036277, -94.3040714],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_014810797cb0307ffc8a4eda8c7708ab = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b72800339e4c7901a8343b1b082638e6 = $(`<div id="html_b72800339e4c7901a8343b1b082638e6" style="width: 100.0%; height: 100.0%;">Wind Shift Brewing Company - Taproom - 117 bbls</div>`)[0];
+                popup_014810797cb0307ffc8a4eda8c7708ab.setContent(html_b72800339e4c7901a8343b1b082638e6);
+            
+
+            marker_4e0a80b3bdbe32fca48741c8ca67f6cd.bindPopup(popup_014810797cb0307ffc8a4eda8c7708ab)
+            ;
+
+            
+        
+    
+        var marker_eac9c4f3e6507dcd9f1fd33fd79adea6 = L.marker(
+            [39.0155117, -94.1984099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_6efcb609edccbc3fd9bd9a6148d5dde7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6f0f707f135fe5581384ad68822215ee = $(`<div id="html_6f0f707f135fe5581384ad68822215ee" style="width: 100.0%; height: 100.0%;">Iron Kettle Brewing - Taproom - 88 bbls</div>`)[0];
+                popup_6efcb609edccbc3fd9bd9a6148d5dde7.setContent(html_6f0f707f135fe5581384ad68822215ee);
+            
+
+            marker_eac9c4f3e6507dcd9f1fd33fd79adea6.bindPopup(popup_6efcb609edccbc3fd9bd9a6148d5dde7)
+            ;
+
+            
+        
+    
+        var marker_f07d291bd07a380fbe49432537ea12a4 = L.marker(
+            [39.0047429, -94.4624288],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_53593c3ab1174c1134e1dc2f63d13436 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a6c8481d1cf4372f10f71fb10f2c8df8 = $(`<div id="html_a6c8481d1cf4372f10f71fb10f2c8df8" style="width: 100.0%; height: 100.0%;">Crane Brewing Company - Micro - 950 bbls</div>`)[0];
+                popup_53593c3ab1174c1134e1dc2f63d13436.setContent(html_a6c8481d1cf4372f10f71fb10f2c8df8);
+            
+
+            marker_f07d291bd07a380fbe49432537ea12a4.bindPopup(popup_53593c3ab1174c1134e1dc2f63d13436)
+            ;
+
+            
+        
+    
+        var marker_00ce1813a4251b6776ee90eb02fd0574 = L.marker(
+            [38.9225, -94.374167],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_1e71f3412cc6ae24cba45aefc7363d12 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0fa7836bb5ff564629bf257abb2f9042 = $(`<div id="html_0fa7836bb5ff564629bf257abb2f9042" style="width: 100.0%; height: 100.0%;">Brewery In Planning - Lees Summit - Planning - 0 bbls</div>`)[0];
+                popup_1e71f3412cc6ae24cba45aefc7363d12.setContent(html_0fa7836bb5ff564629bf257abb2f9042);
+            
+
+            marker_00ce1813a4251b6776ee90eb02fd0574.bindPopup(popup_1e71f3412cc6ae24cba45aefc7363d12)
+            ;
+
+            
+        
+    
+        var marker_ff12bfa1478e362beddbe4f9214c12a2 = L.marker(
+            [39.0014522, -93.7727802],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_f03d52cc9a7b22e86d774d6f77ad8e04 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f25a64f603e01f1d66871b7a50c1fe29 = $(`<div id="html_f25a64f603e01f1d66871b7a50c1fe29" style="width: 100.0%; height: 100.0%;">Arcadian Moon - Brewpub - 0 bbls</div>`)[0];
+                popup_f03d52cc9a7b22e86d774d6f77ad8e04.setContent(html_f25a64f603e01f1d66871b7a50c1fe29);
+            
+
+            marker_ff12bfa1478e362beddbe4f9214c12a2.bindPopup(popup_f03d52cc9a7b22e86d774d6f77ad8e04)
+            ;
+
+            
+        
+    
+        var marker_cb3f9e2c661be4f565936fcee0b4a904 = L.marker(
+            [38.7424556, -93.5707568],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_fc5530c82ad2cbf1474f62fc4f233bed = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1434f3e15e2cdba287e4fa13bdc285a0 = $(`<div id="html_1434f3e15e2cdba287e4fa13bdc285a0" style="width: 100.0%; height: 100.0%;">Brewery in Planning - Whiteman AFB - Planning - 0 bbls</div>`)[0];
+                popup_fc5530c82ad2cbf1474f62fc4f233bed.setContent(html_1434f3e15e2cdba287e4fa13bdc285a0);
+            
+
+            marker_cb3f9e2c661be4f565936fcee0b4a904.bindPopup(popup_fc5530c82ad2cbf1474f62fc4f233bed)
+            ;
+
+            
+        
+    
+        var marker_aad949cad38e226dfbd15d2bb5e2fcbc = L.marker(
+            [38.8580411, -94.524216],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_88f7cb1a0693d70c2cff117b602ef244 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ebf0395b09f4fe5b7709afff26a543d0 = $(`<div id="html_ebf0395b09f4fe5b7709afff26a543d0" style="width: 100.0%; height: 100.0%;">Transparent Brewing Company - Brewpub - 188 bbls</div>`)[0];
+                popup_88f7cb1a0693d70c2cff117b602ef244.setContent(html_ebf0395b09f4fe5b7709afff26a543d0);
+            
+
+            marker_aad949cad38e226dfbd15d2bb5e2fcbc.bindPopup(popup_88f7cb1a0693d70c2cff117b602ef244)
+            ;
+
+            
+        
+    
+        var marker_bc21c3704a4c2894faebea5f52ad2f9c = L.marker(
+            [38.9127832, -94.3766432],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_a66d6ad05116d036088b52096c0accbe = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f1b6a76e64d02fd26a969c94e736ad05 = $(`<div id="html_f1b6a76e64d02fd26a969c94e736ad05" style="width: 100.0%; height: 100.0%;">Fringe Beerworks - Taproom - 199.25 bbls</div>`)[0];
+                popup_a66d6ad05116d036088b52096c0accbe.setContent(html_f1b6a76e64d02fd26a969c94e736ad05);
+            
+
+            marker_bc21c3704a4c2894faebea5f52ad2f9c.bindPopup(popup_a66d6ad05116d036088b52096c0accbe)
+            ;
+
+            
+        
+    
+        var marker_6ab980c57a5c20ef8f5a64b43ab7a6c2 = L.marker(
+            [38.9130629, -94.3776928],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_c28188f997334fdd016c8a968c3df618 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_adf867e195d10a2917b088144020c1a0 = $(`<div id="html_adf867e195d10a2917b088144020c1a0" style="width: 100.0%; height: 100.0%;">Smoke Brewing Company - Brewpub - 176 bbls</div>`)[0];
+                popup_c28188f997334fdd016c8a968c3df618.setContent(html_adf867e195d10a2917b088144020c1a0);
+            
+
+            marker_6ab980c57a5c20ef8f5a64b43ab7a6c2.bindPopup(popup_c28188f997334fdd016c8a968c3df618)
+            ;
+
+            
+        
+    
+        var marker_edb6e04a013bac203abab16cbf3ab1f5 = L.marker(
+            [38.5071313, -93.057787],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_5f831571c26d94f9f04b6cacd9b5807e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7cee403ae7e32c844d46c62b736be0ae = $(`<div id="html_7cee403ae7e32c844d46c62b736be0ae" style="width: 100.0%; height: 100.0%;">Welpman Springs Brewing Company, LLC. - Taproom - 31.98 bbls</div>`)[0];
+                popup_5f831571c26d94f9f04b6cacd9b5807e.setContent(html_7cee403ae7e32c844d46c62b736be0ae);
+            
+
+            marker_edb6e04a013bac203abab16cbf3ab1f5.bindPopup(popup_5f831571c26d94f9f04b6cacd9b5807e)
+            ;
+
+            
+        
+    
+
+            var circle_8b41e05ac6938aeea30957c15c5b0d8e = L.circle(
+                [39.0185377, -94.2814298],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2800.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_d19ed27012b0ad5a6721e044d08234d3 = L.circle(
+                [38.8110698, -94.5317646],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_fc7f03bf23d13f76d8e1f3ae36858da8 = L.circle(
+                [38.9117675, -94.3785763],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1890.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_18682ae35deb8bf9a2fbaaabb4902a6a = L.circle(
+                [39.0408687, -94.4166997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 770.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_a89e152c5f7ef4e6bd05e68663c18e8f = L.circle(
+                [38.9206158, -94.3591625],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4170.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_9dcb3a82000601a12c563bb83be2521b = L.circle(
+                [39.036277, -94.3040714],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1170.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_e06dade5e67bfcc3e18f20856db9ec42 = L.circle(
+                [39.0155117, -94.1984099],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 880.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_4dc974b056eaae7759c41ba7afa58366 = L.circle(
+                [39.0047429, -94.4624288],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9500.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_d7350094dd57fbe7f8a0381c0aaf35ef = L.circle(
+                [38.9225, -94.374167],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_85dde92dba4b3fc17b65fe991995af49 = L.circle(
+                [39.0014522, -93.7727802],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_22af76d5e5807802e62aec76017bdaca = L.circle(
+                [38.7424556, -93.5707568],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_74312c67b6581b44c6dc05137d75ab94 = L.circle(
+                [38.8580411, -94.524216],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1880.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_db2de194518c895e1fa24b8c323e38b7 = L.circle(
+                [38.9127832, -94.3766432],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1992.5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_dc22224597d51213f4e8e37521b5294e = L.circle(
+                [38.9130629, -94.3776928],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1760.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_e2487886ef090196707aa786acceb513 = L.circle(
+                [38.5071313, -93.057787],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 319.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+        var marker_00a32d53c4e3c5e480d3f4ffba3f152a = L.marker(
+            [39.0185377, -94.2814298],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_5495dbba63455a0eb2c6d1440a24330f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bbf76eb1c9263bfcb6b7c55be90d0f84 = $(`<div id="html_bbf76eb1c9263bfcb6b7c55be90d0f84" style="width: 100.0%; height: 100.0%;">East Forty Brewing - Taproom - 280 bbls</div>`)[0];
+                popup_5495dbba63455a0eb2c6d1440a24330f.setContent(html_bbf76eb1c9263bfcb6b7c55be90d0f84);
+            
+
+            marker_00a32d53c4e3c5e480d3f4ffba3f152a.bindPopup(popup_5495dbba63455a0eb2c6d1440a24330f)
+            ;
+
+            
+        
+    
+        var marker_853145fc3d06a31b66351e94bfe34523 = L.marker(
+            [38.8110698, -94.5317646],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_6840c5f8b4a7c58ec906f1ce59eac74d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_280ba3d2f9c2278ff5b891824e7a1b9e = $(`<div id="html_280ba3d2f9c2278ff5b891824e7a1b9e" style="width: 100.0%; height: 100.0%;">Crafted Dreams LLC - Planning - 0 bbls</div>`)[0];
+                popup_6840c5f8b4a7c58ec906f1ce59eac74d.setContent(html_280ba3d2f9c2278ff5b891824e7a1b9e);
+            
+
+            marker_853145fc3d06a31b66351e94bfe34523.bindPopup(popup_6840c5f8b4a7c58ec906f1ce59eac74d)
+            ;
+
+            
+        
+    
+        var marker_b0103fe9bd6cabcdd9a6f4f8af1d76ff = L.marker(
+            [38.9117675, -94.3785763],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_5e8b6d9e79da29886bd8c126e7e6130c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6e4ce507f0105f18f80daae1fa5fd4bc = $(`<div id="html_6e4ce507f0105f18f80daae1fa5fd4bc" style="width: 100.0%; height: 100.0%;">Grains & Taps - Taproom - 189 bbls</div>`)[0];
+                popup_5e8b6d9e79da29886bd8c126e7e6130c.setContent(html_6e4ce507f0105f18f80daae1fa5fd4bc);
+            
+
+            marker_b0103fe9bd6cabcdd9a6f4f8af1d76ff.bindPopup(popup_5e8b6d9e79da29886bd8c126e7e6130c)
+            ;
+
+            
+        
+    
+        var marker_1f0bf5dc36dfcf580487eb4b1f763d0f = L.marker(
+            [39.0408687, -94.4166997],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_3db758d55876db4bd737b849609c0366 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b85ca4be6c861b14088bde093ce98f69 = $(`<div id="html_b85ca4be6c861b14088bde093ce98f69" style="width: 100.0%; height: 100.0%;">Apex Aleworks - Taproom - 77 bbls</div>`)[0];
+                popup_3db758d55876db4bd737b849609c0366.setContent(html_b85ca4be6c861b14088bde093ce98f69);
+            
+
+            marker_1f0bf5dc36dfcf580487eb4b1f763d0f.bindPopup(popup_3db758d55876db4bd737b849609c0366)
+            ;
+
+            
+        
+    
+        var marker_e37e58d5cc8c0b8bf8e1d0a072b84ea8 = L.marker(
+            [38.9206158, -94.3591625],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_c6545a01fcfbb8d58e34556e91d4093f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d64e06c0e4a8d365294c91083bcaa9bc = $(`<div id="html_d64e06c0e4a8d365294c91083bcaa9bc" style="width: 100.0%; height: 100.0%;">Diametric Brewing Co. - Taproom - 417 bbls</div>`)[0];
+                popup_c6545a01fcfbb8d58e34556e91d4093f.setContent(html_d64e06c0e4a8d365294c91083bcaa9bc);
+            
+
+            marker_e37e58d5cc8c0b8bf8e1d0a072b84ea8.bindPopup(popup_c6545a01fcfbb8d58e34556e91d4093f)
+            ;
+
+            
+        
+    
+        var marker_3d9fab1ed7062369244772cc5e958bfb = L.marker(
+            [39.036277, -94.3040714],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_f2e4ff5ad38c4a919234c096f16b118e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e45408ad2b3098d13a0b279ec8350a89 = $(`<div id="html_e45408ad2b3098d13a0b279ec8350a89" style="width: 100.0%; height: 100.0%;">Wind Shift Brewing Company - Taproom - 117 bbls</div>`)[0];
+                popup_f2e4ff5ad38c4a919234c096f16b118e.setContent(html_e45408ad2b3098d13a0b279ec8350a89);
+            
+
+            marker_3d9fab1ed7062369244772cc5e958bfb.bindPopup(popup_f2e4ff5ad38c4a919234c096f16b118e)
+            ;
+
+            
+        
+    
+        var marker_1b08a02df56536c871b8644e87ba37fd = L.marker(
+            [39.0155117, -94.1984099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_364ac251daebc9756fec8714a6b2b614 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d43b4da77252ac9827b708cbf7fb901e = $(`<div id="html_d43b4da77252ac9827b708cbf7fb901e" style="width: 100.0%; height: 100.0%;">Iron Kettle Brewing - Taproom - 88 bbls</div>`)[0];
+                popup_364ac251daebc9756fec8714a6b2b614.setContent(html_d43b4da77252ac9827b708cbf7fb901e);
+            
+
+            marker_1b08a02df56536c871b8644e87ba37fd.bindPopup(popup_364ac251daebc9756fec8714a6b2b614)
+            ;
+
+            
+        
+    
+        var marker_088fbeb4a769fefc4a879354b4fd46da = L.marker(
+            [39.0047429, -94.4624288],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_740525df217a2dd870e3cf92f8fbb367 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ae0120ace25e11af785697db08c030d8 = $(`<div id="html_ae0120ace25e11af785697db08c030d8" style="width: 100.0%; height: 100.0%;">Crane Brewing Company - Micro - 950 bbls</div>`)[0];
+                popup_740525df217a2dd870e3cf92f8fbb367.setContent(html_ae0120ace25e11af785697db08c030d8);
+            
+
+            marker_088fbeb4a769fefc4a879354b4fd46da.bindPopup(popup_740525df217a2dd870e3cf92f8fbb367)
+            ;
+
+            
+        
+    
+        var marker_235700a7ad01e9591a64f490e306306d = L.marker(
+            [38.9225, -94.374167],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_69930ad608af6ed632584fb44dd2f052 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d45979826b4b9703c95cfb361fd666f0 = $(`<div id="html_d45979826b4b9703c95cfb361fd666f0" style="width: 100.0%; height: 100.0%;">Brewery In Planning - Lees Summit - Planning - 0 bbls</div>`)[0];
+                popup_69930ad608af6ed632584fb44dd2f052.setContent(html_d45979826b4b9703c95cfb361fd666f0);
+            
+
+            marker_235700a7ad01e9591a64f490e306306d.bindPopup(popup_69930ad608af6ed632584fb44dd2f052)
+            ;
+
+            
+        
+    
+        var marker_8ddbdd7b90c1300b62b983d9fba6e80f = L.marker(
+            [39.0014522, -93.7727802],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_2849cd0bad54412b293ac56b9bd0ebd5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1d1a81c16f39f61844643662a29b6c51 = $(`<div id="html_1d1a81c16f39f61844643662a29b6c51" style="width: 100.0%; height: 100.0%;">Arcadian Moon - Brewpub - 0 bbls</div>`)[0];
+                popup_2849cd0bad54412b293ac56b9bd0ebd5.setContent(html_1d1a81c16f39f61844643662a29b6c51);
+            
+
+            marker_8ddbdd7b90c1300b62b983d9fba6e80f.bindPopup(popup_2849cd0bad54412b293ac56b9bd0ebd5)
+            ;
+
+            
+        
+    
+        var marker_db6b7dc8cf222c91cc76e7005c83da8d = L.marker(
+            [38.7424556, -93.5707568],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_e66fe9fa58762691c1d25a7f8eba1416 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_03ca7e8d777d0e1a82c6dff102526896 = $(`<div id="html_03ca7e8d777d0e1a82c6dff102526896" style="width: 100.0%; height: 100.0%;">Brewery in Planning - Whiteman AFB - Planning - 0 bbls</div>`)[0];
+                popup_e66fe9fa58762691c1d25a7f8eba1416.setContent(html_03ca7e8d777d0e1a82c6dff102526896);
+            
+
+            marker_db6b7dc8cf222c91cc76e7005c83da8d.bindPopup(popup_e66fe9fa58762691c1d25a7f8eba1416)
+            ;
+
+            
+        
+    
+        var marker_963d3aa9de9a793cac8fa8d90cba0dea = L.marker(
+            [38.8580411, -94.524216],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_170e5dabd8bac28e471141e817986a15 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cc526beac2647eccdcfba048049b97a9 = $(`<div id="html_cc526beac2647eccdcfba048049b97a9" style="width: 100.0%; height: 100.0%;">Transparent Brewing Company - Brewpub - 188 bbls</div>`)[0];
+                popup_170e5dabd8bac28e471141e817986a15.setContent(html_cc526beac2647eccdcfba048049b97a9);
+            
+
+            marker_963d3aa9de9a793cac8fa8d90cba0dea.bindPopup(popup_170e5dabd8bac28e471141e817986a15)
+            ;
+
+            
+        
+    
+        var marker_98302533c9a2e5d7b9f3e1cd5a48771d = L.marker(
+            [38.9127832, -94.3766432],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_a61ad8d49116c3c129f4fde24c7f711d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1d98dddbe1019edac272e91dfce249d9 = $(`<div id="html_1d98dddbe1019edac272e91dfce249d9" style="width: 100.0%; height: 100.0%;">Fringe Beerworks - Taproom - 199.25 bbls</div>`)[0];
+                popup_a61ad8d49116c3c129f4fde24c7f711d.setContent(html_1d98dddbe1019edac272e91dfce249d9);
+            
+
+            marker_98302533c9a2e5d7b9f3e1cd5a48771d.bindPopup(popup_a61ad8d49116c3c129f4fde24c7f711d)
+            ;
+
+            
+        
+    
+        var marker_c6623ea0044b5f22eae40ea740b55152 = L.marker(
+            [38.9130629, -94.3776928],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_070fd5b44d974cd2c6c4afd48aa48820 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d8fd25ac49fff832a1d5751e9b935bec = $(`<div id="html_d8fd25ac49fff832a1d5751e9b935bec" style="width: 100.0%; height: 100.0%;">Smoke Brewing Company - Brewpub - 176 bbls</div>`)[0];
+                popup_070fd5b44d974cd2c6c4afd48aa48820.setContent(html_d8fd25ac49fff832a1d5751e9b935bec);
+            
+
+            marker_c6623ea0044b5f22eae40ea740b55152.bindPopup(popup_070fd5b44d974cd2c6c4afd48aa48820)
+            ;
+
+            
+        
+    
+        var marker_4ca2adabbc4c9647fb579d3d7ff46591 = L.marker(
+            [38.5071313, -93.057787],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_758d3a541ea0479a9dc048a15559da17 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dedf62541ec38ccce397b98af2d04b5d = $(`<div id="html_dedf62541ec38ccce397b98af2d04b5d" style="width: 100.0%; height: 100.0%;">Welpman Springs Brewing Company, LLC. - Taproom - 31.98 bbls</div>`)[0];
+                popup_758d3a541ea0479a9dc048a15559da17.setContent(html_dedf62541ec38ccce397b98af2d04b5d);
+            
+
+            marker_4ca2adabbc4c9647fb579d3d7ff46591.bindPopup(popup_758d3a541ea0479a9dc048a15559da17)
+            ;
+
+            
+        
+    
+
+            var circle_a64e358c6ffefaaf8636c2484a473ad8 = L.circle(
+                [39.0185377, -94.2814298],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2800.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_06b7af3e62f05aef9486fe2a6498f515 = L.circle(
+                [38.8110698, -94.5317646],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_c79932b348d57439deaaf73759051c9d = L.circle(
+                [38.9117675, -94.3785763],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1890.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_5740abedbed6d793461cfffd9cf3a1e1 = L.circle(
+                [39.0408687, -94.4166997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 770.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_72657c4fad3ce7f227746e3a534b24b6 = L.circle(
+                [38.9206158, -94.3591625],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4170.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_66250eadf4886ab1500f5af1f56a60ab = L.circle(
+                [39.036277, -94.3040714],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1170.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_135c99203aadc2d035310a33c303c320 = L.circle(
+                [39.0155117, -94.1984099],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 880.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_726ec4fb1861d689f6ee90ef86d65f00 = L.circle(
+                [39.0047429, -94.4624288],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9500.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_d3757da21a8620a5e34a02ad8e3e5c68 = L.circle(
+                [38.9225, -94.374167],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_b788a1acf1c78f5636fa7c10aaf81343 = L.circle(
+                [39.0014522, -93.7727802],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_c638288e77c95f3157f6d58a8b006dc4 = L.circle(
+                [38.7424556, -93.5707568],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_3b2b9fc885cce9c80c6d394ee0ecfb91 = L.circle(
+                [38.8580411, -94.524216],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1880.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_0005196064802f5f5d43e31ca2b9fdff = L.circle(
+                [38.9127832, -94.3766432],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1992.5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_dd2cf5d44e4c389af49b7bdcb19b06f6 = L.circle(
+                [38.9130629, -94.3776928],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1760.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+
+            var circle_3a211d0c210983ef3ab90ff4ea2540ab = L.circle(
+                [38.5071313, -93.057787],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 319.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_9327efecba34dc6a1344c8422eb23645);
+            
+    
+        var marker_8a65eaddcd2ce1cb881bae22a59559e6 = L.marker(
+            [39.0185377, -94.2814298],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_b3035d3139f08401e14f7e6f9358eec7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1b3b5f30d6559fccbc56e6c85b2b8b7d = $(`<div id="html_1b3b5f30d6559fccbc56e6c85b2b8b7d" style="width: 100.0%; height: 100.0%;">East Forty Brewing - Taproom - 280 bbls</div>`)[0];
+                popup_b3035d3139f08401e14f7e6f9358eec7.setContent(html_1b3b5f30d6559fccbc56e6c85b2b8b7d);
+            
+
+            marker_8a65eaddcd2ce1cb881bae22a59559e6.bindPopup(popup_b3035d3139f08401e14f7e6f9358eec7)
+            ;
+
+            
+        
+    
+        var marker_df714b5c8cb71615d10c692b59170560 = L.marker(
+            [38.8110698, -94.5317646],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_7a1a63d03777df0cef0d46c82f6b7c93 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8fa8c7e97bcb8b87eaa014500ee5f0e1 = $(`<div id="html_8fa8c7e97bcb8b87eaa014500ee5f0e1" style="width: 100.0%; height: 100.0%;">Crafted Dreams LLC - Planning - 0 bbls</div>`)[0];
+                popup_7a1a63d03777df0cef0d46c82f6b7c93.setContent(html_8fa8c7e97bcb8b87eaa014500ee5f0e1);
+            
+
+            marker_df714b5c8cb71615d10c692b59170560.bindPopup(popup_7a1a63d03777df0cef0d46c82f6b7c93)
+            ;
+
+            
+        
+    
+        var marker_fdf8aa3d2703e86e96ae22e495b30463 = L.marker(
+            [38.9117675, -94.3785763],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_7a800398288faac6fdb96df3212c8465 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_903a1a465e739ab8c55ab200e9c0b777 = $(`<div id="html_903a1a465e739ab8c55ab200e9c0b777" style="width: 100.0%; height: 100.0%;">Grains & Taps - Taproom - 189 bbls</div>`)[0];
+                popup_7a800398288faac6fdb96df3212c8465.setContent(html_903a1a465e739ab8c55ab200e9c0b777);
+            
+
+            marker_fdf8aa3d2703e86e96ae22e495b30463.bindPopup(popup_7a800398288faac6fdb96df3212c8465)
+            ;
+
+            
+        
+    
+        var marker_47859dae7ab92ddd46426453b228d716 = L.marker(
+            [39.0408687, -94.4166997],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_523743f1b29fa79b3226361f0cb8cde0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e7998a9fc2e46f28d663ed12f4c570e8 = $(`<div id="html_e7998a9fc2e46f28d663ed12f4c570e8" style="width: 100.0%; height: 100.0%;">Apex Aleworks - Taproom - 77 bbls</div>`)[0];
+                popup_523743f1b29fa79b3226361f0cb8cde0.setContent(html_e7998a9fc2e46f28d663ed12f4c570e8);
+            
+
+            marker_47859dae7ab92ddd46426453b228d716.bindPopup(popup_523743f1b29fa79b3226361f0cb8cde0)
+            ;
+
+            
+        
+    
+        var marker_931f54ff787481e959f3d19c459ee766 = L.marker(
+            [38.9206158, -94.3591625],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_6616978b6b28496429d8d537c02644c3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3da61fe4031fbfbc89d75be2e8cd60fa = $(`<div id="html_3da61fe4031fbfbc89d75be2e8cd60fa" style="width: 100.0%; height: 100.0%;">Diametric Brewing Co. - Taproom - 417 bbls</div>`)[0];
+                popup_6616978b6b28496429d8d537c02644c3.setContent(html_3da61fe4031fbfbc89d75be2e8cd60fa);
+            
+
+            marker_931f54ff787481e959f3d19c459ee766.bindPopup(popup_6616978b6b28496429d8d537c02644c3)
+            ;
+
+            
+        
+    
+        var marker_70d5f8f06997180ff9d346394cffa80e = L.marker(
+            [39.036277, -94.3040714],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_5fdbc3888f9b1a0cf57219c86ef1a367 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d91c937b0f4f22f5b56ec810754e2d4a = $(`<div id="html_d91c937b0f4f22f5b56ec810754e2d4a" style="width: 100.0%; height: 100.0%;">Wind Shift Brewing Company - Taproom - 117 bbls</div>`)[0];
+                popup_5fdbc3888f9b1a0cf57219c86ef1a367.setContent(html_d91c937b0f4f22f5b56ec810754e2d4a);
+            
+
+            marker_70d5f8f06997180ff9d346394cffa80e.bindPopup(popup_5fdbc3888f9b1a0cf57219c86ef1a367)
+            ;
+
+            
+        
+    
+        var marker_8e625ca8165b1dc828a109f549a81d41 = L.marker(
+            [39.0155117, -94.1984099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_fb2fbb0646d6df8e8056b9f1f2d89d8c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5305cb5aceb28a026616b7ed62191e9d = $(`<div id="html_5305cb5aceb28a026616b7ed62191e9d" style="width: 100.0%; height: 100.0%;">Iron Kettle Brewing - Taproom - 88 bbls</div>`)[0];
+                popup_fb2fbb0646d6df8e8056b9f1f2d89d8c.setContent(html_5305cb5aceb28a026616b7ed62191e9d);
+            
+
+            marker_8e625ca8165b1dc828a109f549a81d41.bindPopup(popup_fb2fbb0646d6df8e8056b9f1f2d89d8c)
+            ;
+
+            
+        
+    
+        var marker_b4b7c7d751e638070e40c4a96d0836ab = L.marker(
+            [39.0047429, -94.4624288],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_845f06a805cde91c4b3fab3a9f66890b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_81a8d749d773fec2e20804e70ce88705 = $(`<div id="html_81a8d749d773fec2e20804e70ce88705" style="width: 100.0%; height: 100.0%;">Crane Brewing Company - Micro - 950 bbls</div>`)[0];
+                popup_845f06a805cde91c4b3fab3a9f66890b.setContent(html_81a8d749d773fec2e20804e70ce88705);
+            
+
+            marker_b4b7c7d751e638070e40c4a96d0836ab.bindPopup(popup_845f06a805cde91c4b3fab3a9f66890b)
+            ;
+
+            
+        
+    
+        var marker_ce52f0f69f5652d44c4ed9a4effd788a = L.marker(
+            [38.9225, -94.374167],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_b97fc93dddea4c300480c69194a7839c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f60ac65a43e76b963ed576f908cfefc4 = $(`<div id="html_f60ac65a43e76b963ed576f908cfefc4" style="width: 100.0%; height: 100.0%;">Brewery In Planning - Lees Summit - Planning - 0 bbls</div>`)[0];
+                popup_b97fc93dddea4c300480c69194a7839c.setContent(html_f60ac65a43e76b963ed576f908cfefc4);
+            
+
+            marker_ce52f0f69f5652d44c4ed9a4effd788a.bindPopup(popup_b97fc93dddea4c300480c69194a7839c)
+            ;
+
+            
+        
+    
+        var marker_03335918364a976cc6f75eba48b9ba77 = L.marker(
+            [39.0014522, -93.7727802],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_58a81a5560a8f19af788f8f1690599e8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5b7d091541d49e681c05d76f96f1e64f = $(`<div id="html_5b7d091541d49e681c05d76f96f1e64f" style="width: 100.0%; height: 100.0%;">Arcadian Moon - Brewpub - 0 bbls</div>`)[0];
+                popup_58a81a5560a8f19af788f8f1690599e8.setContent(html_5b7d091541d49e681c05d76f96f1e64f);
+            
+
+            marker_03335918364a976cc6f75eba48b9ba77.bindPopup(popup_58a81a5560a8f19af788f8f1690599e8)
+            ;
+
+            
+        
+    
+        var marker_01ecb881b5de858990bb98078ee1c293 = L.marker(
+            [38.7424556, -93.5707568],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_9d73999b24f4ccee8c424e7437940879 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_08dfd8f5d33ce75d16c04bdd8f0eb305 = $(`<div id="html_08dfd8f5d33ce75d16c04bdd8f0eb305" style="width: 100.0%; height: 100.0%;">Brewery in Planning - Whiteman AFB - Planning - 0 bbls</div>`)[0];
+                popup_9d73999b24f4ccee8c424e7437940879.setContent(html_08dfd8f5d33ce75d16c04bdd8f0eb305);
+            
+
+            marker_01ecb881b5de858990bb98078ee1c293.bindPopup(popup_9d73999b24f4ccee8c424e7437940879)
+            ;
+
+            
+        
+    
+        var marker_f232d8e6c0270f55bc3ef51955e5bc52 = L.marker(
+            [38.8580411, -94.524216],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_e57459de403d15abdc885987562d1f96 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4c7274ed1cede3ac297ec19dc0e67db8 = $(`<div id="html_4c7274ed1cede3ac297ec19dc0e67db8" style="width: 100.0%; height: 100.0%;">Transparent Brewing Company - Brewpub - 188 bbls</div>`)[0];
+                popup_e57459de403d15abdc885987562d1f96.setContent(html_4c7274ed1cede3ac297ec19dc0e67db8);
+            
+
+            marker_f232d8e6c0270f55bc3ef51955e5bc52.bindPopup(popup_e57459de403d15abdc885987562d1f96)
+            ;
+
+            
+        
+    
+        var marker_62b369160894cfb5a209f4e950039c84 = L.marker(
+            [38.9127832, -94.3766432],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_7840542fd2114e733b1ef0b5960ce451 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3df37044cd5ba5172765d1a04a198e3a = $(`<div id="html_3df37044cd5ba5172765d1a04a198e3a" style="width: 100.0%; height: 100.0%;">Fringe Beerworks - Taproom - 199.25 bbls</div>`)[0];
+                popup_7840542fd2114e733b1ef0b5960ce451.setContent(html_3df37044cd5ba5172765d1a04a198e3a);
+            
+
+            marker_62b369160894cfb5a209f4e950039c84.bindPopup(popup_7840542fd2114e733b1ef0b5960ce451)
+            ;
+
+            
+        
+    
+        var marker_a7e6d990906726096e3f7a0dd9ec6cdd = L.marker(
+            [38.9130629, -94.3776928],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_c7b0bdaf6b36ce47fabe2f90536911bc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f804d5d16493eabdbad508f168d3f5b1 = $(`<div id="html_f804d5d16493eabdbad508f168d3f5b1" style="width: 100.0%; height: 100.0%;">Smoke Brewing Company - Brewpub - 176 bbls</div>`)[0];
+                popup_c7b0bdaf6b36ce47fabe2f90536911bc.setContent(html_f804d5d16493eabdbad508f168d3f5b1);
+            
+
+            marker_a7e6d990906726096e3f7a0dd9ec6cdd.bindPopup(popup_c7b0bdaf6b36ce47fabe2f90536911bc)
+            ;
+
+            
+        
+    
+        var marker_e13b80e7c158ffb273591336aba133cd = L.marker(
+            [38.5071313, -93.057787],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_9327efecba34dc6a1344c8422eb23645);
+        
+    
+            var popup_4e8ad729f4742b89d2dc81126a514ef0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d94df0e0c0170121c8a92b9254c80c85 = $(`<div id="html_d94df0e0c0170121c8a92b9254c80c85" style="width: 100.0%; height: 100.0%;">Welpman Springs Brewing Company, LLC. - Taproom - 31.98 bbls</div>`)[0];
+                popup_4e8ad729f4742b89d2dc81126a514ef0.setContent(html_d94df0e0c0170121c8a92b9254c80c85);
+            
+
+            marker_e13b80e7c158ffb273591336aba133cd.bindPopup(popup_4e8ad729f4742b89d2dc81126a514ef0)
+            ;
+
+            
+        
+</script>
